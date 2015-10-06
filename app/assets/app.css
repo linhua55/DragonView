@@ -48,7 +48,7 @@ div {
   right: 0px; }
 
 .title {
-  font-size: 18pt;
+  font-size: 20pt;
   font-weight: bold; }
 
 .color-menu {
@@ -237,5 +237,3 @@ div {
   stroke-width: 1px;
   stroke: green;
   shape-rendering: crispEdges; }
-
-/*# sourceMappingURL=app.css.map */

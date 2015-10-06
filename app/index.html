@@ -20,32 +20,6 @@
     <input id="file" type="file" name="input_file" accept=".csv" style="display:none">
     <ul>
         <li>
-            <span class="li-title">Data </span>
-            <table>
-                <tbody>
-                <tr>
-                    <td>Catalog:</td>
-                    <td><label id="catalog"></label>
-                        <button id="load" style="margin-left: 10px; height:10px">...</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Run:</td>
-                    <td><select id="run"></select></td>
-                </tr>
-                <tr>
-                    <td>Counter:</td>
-                    <td><select id="counter"></select></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td id="sub"></td>
-                </tr>
-                </tbody>
-            </table>
-        </li>
-
-        <li>
             <label class="li-title">Filtering </label>
             <div class="content">
                 <label style="width:45px;display: inline-block">Filter:</label><label id="filter-range"></label><br>
@@ -79,13 +53,40 @@
             <input type="checkbox" id="range-frozen" class="switch-input">Freeze<br>
             </li>
 
-
         <li>
             <span class="li-title">Jobs </span><br>
             <span style="padding-left:30px">id</span><span style="padding-left: 10px">nodes</span>
-            <span style="padding-left:50px">id</span><span style="padding-left: 10px">nodes</span>
+            <span style="padding-left:40px">id</span><span style="padding-left: 10px">nodes</span>
             <div id="jobs" style="position: relative"></div>
+        </li><br><br><br><br><br>
+
+        <li>
+            <span class="li-title">Data </span>
+            <table>
+                <tbody>
+                <tr>
+                    <td>Catalog:</td>
+                    <td><label id="catalog"></label>
+                        <button id="load" style="margin-left: 10px; height:10px">...</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Run:</td>
+                    <td><select id="run"></select></td>
+                </tr>
+                <tr>
+                    <td>Counter:</td>
+                    <td><select id="counter"></select></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="sub"></td>
+                </tr>
+                </tbody>
+            </table>
         </li>
+
+
     </ul>
 </div>
 

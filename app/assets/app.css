@@ -32,7 +32,7 @@
 body {
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10pt; }
+  font-size: 14pt; }
 
 .nav, .pagination, .carousel, .panel-title a {
   cursor: pointer; }
@@ -48,7 +48,7 @@ div {
   right: 0px; }
 
 .title {
-  font-size: 16pt;
+  font-size: 18pt;
   font-weight: bold; }
 
 .color-menu {
@@ -69,7 +69,7 @@ div {
 .controls {
   top: 10px;
   left: 5px;
-  width: 250px; }
+  width: 280px; }
   .controls ul {
     list-style-type: none;
     padding: 0px;
@@ -114,14 +114,14 @@ div {
   margin-top: 0px; }
 
 .counter {
-  width: 250px;
+  width: 280px;
   background-color: #fdf5ce; }
 
 .views {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 280px;
+  left: 290px;
   right: 0; }
 
 .view {
@@ -181,7 +181,8 @@ div {
     stroke: #ccc; }
     .radial .group text {
       stroke: none;
-      fill: #000; }
+      fill: #000;
+      font-size: 20pt; }
     .radial .group:hover {
       stroke: #808080;
       stroke-width: 1px; }

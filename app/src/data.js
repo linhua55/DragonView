@@ -83,15 +83,6 @@ define(function(require) {
     var job, router, idx=0, n;
     data.forEach(function (item) {
       if (item.core == undefined || item.core == 0) {
-        //if (item.core == undefined) {
-        //  node_rank = rank;
-        //} else {
-        //  node_rank = Math.floor(rank/24);
-        //  if (rank % 24 > 0)
-        //    console.log('rank issue:', rank, node_rank)
-        //}
-        //
-        //item.rank = node_rank;
         item.g = +item.g;
         item.r = +item.r;
         item.c = +item.c;
@@ -110,7 +101,7 @@ define(function(require) {
           run.jobs.set(item.jobid, job);
           idx++;
         }
-        //run.nodes.set(item.rank, item);
+        job.n++;
 
         router = run.routers.get(model.router_id(item));
         if (router.jobs.indexOf(job) == -1) {

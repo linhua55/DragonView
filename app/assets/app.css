@@ -69,7 +69,7 @@ div {
 .controls {
   top: 10px;
   left: 5px;
-  width: 280px; }
+  width: 295px; }
   .controls ul {
     list-style-type: none;
     padding: 0px;
@@ -184,9 +184,6 @@ div {
       stroke: none;
       fill: #000;
       font-size: 20pt; }
-    .radial .group:hover {
-      stroke: #808080;
-      stroke-width: 1px; }
     .radial .group.selected {
       fill: #d8d8d8; }
   .radial .connector {
@@ -197,14 +194,11 @@ div {
     fill: none; }
     .radial .connection:hover, .radial .connection.highlight {
       stroke: steelblue;
-      stroke-width: 4; }
+      stroke-width: 3; }
   .radial circle {
-    stroke-width: 2px;
-    r: 2px; }
+    stroke-width: 2px; }
     .radial circle:hover {
       stroke-width: 4px; }
-    .radial circle:active {
-      r: 4px; }
 
 .matrix line {
   fill: none;
@@ -237,3 +231,5 @@ div {
   stroke-width: 1px;
   stroke: green;
   shape-rendering: crispEdges; }
+
+/*# sourceMappingURL=app.css.map */

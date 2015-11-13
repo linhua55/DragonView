@@ -49,7 +49,7 @@ div {
 //  position: fixed;
   top: 10px;
   left: 5px;
-  width: 280px;
+  width: 295px;
 
   ul {
     list-style-type: none;
@@ -223,10 +223,10 @@ div {
       font-size: 20pt;
     }
 
-    &:hover {
-      stroke: #808080;
-      stroke-width: 1px;
-    }
+    //&:hover {
+    //  stroke: #808080;
+    //  stroke-width: 1px;
+    //}
 
     &.selected {
       fill: #d8d8d8;
@@ -247,20 +247,20 @@ div {
 
     &:hover, &.highlight {
       stroke: steelblue;
-      stroke-width: 4;
+      stroke-width: 3;
     }
   }
 
   circle {
     stroke-width: 2px;
-    r: 2px;
+    //r: 2px;
 
     &:hover {
       stroke-width: 4px;
     }
 
     &:active {
-      r: 4px;
+      //r: 4px;
     }
   }
 

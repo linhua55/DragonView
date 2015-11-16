@@ -60,7 +60,8 @@ define(function(require) {
 
       if (!insideMode) {
         leftHandle.attr('width', ex[0]);
-        rightHandle.attr('x', ex[1].attr('width', width-ex[1]));
+        rightHandle.attr('x', ex[1]);
+        rightHandle.attr('width', width-ex[1]);
       }
       var i, j, prev = highlightPercentile.concat();
       for (i=0; i<3; i++) {
